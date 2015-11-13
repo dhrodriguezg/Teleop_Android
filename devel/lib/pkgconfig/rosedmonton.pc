@@ -1,0 +1,8 @@
+prefix=/home/dhrodriguezg/Teleop_Android/devel
+
+Name: rosedmonton
+Description: Description of rosedmonton
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/dhrodriguezg/Teleop_Android/devel/lib 
+Requires: 

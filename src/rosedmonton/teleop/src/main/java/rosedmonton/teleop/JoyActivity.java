@@ -30,7 +30,7 @@ public class JoyActivity extends RosActivity {
         setContentView(R.layout.joystick_teleop);
 
         joystick = (VirtualJoystickView) findViewById(R.id.virtual_joystick);
-        joystick.setHolonomic(true);
+        joystick.setHolonomic(false);
         joystick.setTopicName("/android/joystick");
     }
 

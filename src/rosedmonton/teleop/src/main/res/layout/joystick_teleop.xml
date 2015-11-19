@@ -4,12 +4,17 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
+    <org.ros.android.view.RosImageView
+        android:id="@+id/streamingView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
     <org.ros.android.view.VirtualJoystickView
         android:id="@+id/virtual_joystick"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>
 
